@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@9/swiper-bundle.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="chonhop.css">
+    <title>Cupcake House</title>
+    <link rel="shortcut icon" href="images/logos/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header-grid">
+            <div>
+                <img src="images/logos/logo.png" alt="Logo" width= "100px">
+            </div>
+            <div class="logo">
+                ✨Cupcake House✨
+            </div>
+            <div class="icon-cart">
+                <img src="images/logos/tuvan.png" alt="Tuvan Icon">
+                <img src="images/logos/cart.png" alt="Cart Icon">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero">
+            <h1>Choose your lovely boxes</h1>
+        </div>
+
+        <section id="tranding">
+            <div class="container">
+                <div class="swiper-container tranding-slider">
+                    <div class="swiper-wrapper">
+                        <!-- Slider Items -->
+                        <div class="swiper-slide tranding-slide" data-box="banhngot">
+                            <div class="tranding-slide-img">
+                                <img src="images/boxes/banhngot.jpg" alt="Box">
+                            </div>
+                        </div>
+                        <div class="swiper-slide tranding-slide" data-box="caro">
+                            <div class="tranding-slide-img">
+                                <img src="images/boxes/caro.jpg" alt="Box">
+                            </div>
+                        </div>
+                        <div class="swiper-slide tranding-slide" data-box="duahau">
+                            <div class="tranding-slide-img">
+                                <img src="images/boxes/duahau.jpg" alt="Box">
+                            </div>
+                        </div>
+                        <div class="swiper-slide tranding-slide" data-box="gau">
+                            <div class="tranding-slide-img">
+                                <img src="images/boxes/gau.jpg" alt="Box">
+                            </div>
+                        </div>
+                        <div class="swiper-slide tranding-slide" data-box="merrychrismas">
+                            <div class="tranding-slide-img">
+                                <img src="images/boxes/merrychrismas.jpg" alt="Box">
+                            </div>
+                        </div>
+                        <div class="swiper-slide tranding-slide" data-box="nam">
+                            <div class="tranding-slide-img">
+                                <img src="images/boxes/nam.jpg" alt="Box">
+                            </div>
+                        </div>
+                        <div class="swiper-slide tranding-slide" data-box="tho">
+                            <div class="tranding-slide-img">
+                                <img src="images/boxes/tho.jpg" alt="Box">
+                            </div>
+                        </div>
+                        <div class="swiper-slide tranding-slide" data-box="thotrang">
+                            <div class="tranding-slide-img">
+                                <img src="images/boxes/thotrang.jpg" alt="Box">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pagination and Navigation -->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Bảng chọn hộp -->
+         <div id="selected-items">
+            <h3>Your Selected Boxes</h3>
+            <ul id="selected-items-list"></ul>
+        </div>
+
+        <!-- Nút chọn hộp với liên kết tới tệp -->
+        <a href="chonbanh.html" class="button">Chọn Bánh</a>
+        <label for="file-input">Đặt Hàng</label>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+          <!-- Ô chứa thông tin liên hệ với logo mạng xã hội -->
+          <div class="contact-info">
+            <h3>Follow Us</h3>
+            <div class="networks">
+                <i class="bx bxl-instagram bx-lg"></i>
+                <i class="bx bxl-tiktok bx-lg"></i>
+                <i class="bx bxl-facebook bx-lg"></i>
+                <i class="bx bxl-youtube bx-lg"></i>
+            </div>
+          </div>
+          <!-- Ô chứa tên các thành viên -->
+          <div class="team-info">
+            <h3>Our Team</h3>
+            <ul>
+              <li>Giám đốc: Lê Tâm Như</li>
+              <li>Quản lý: Lê Ngọc Uyên Nhi</li>
+              <li>Nhân viên: Tòng Gia Long</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+    <!-- JavaScript -->
+    <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="chonhop.js"></script>
+</body>
+
+
+</html>
